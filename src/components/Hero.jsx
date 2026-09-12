@@ -3,7 +3,7 @@ import HeroBanner from '../assets/banner-stack.png';
 
 function Hero() {
   return (
-    <div className="container mx-auto flex gap-48 justify-between items-center py-28">
+    <section className="container mx-auto flex gap-48 justify-between items-center py-12 bg-amber-300">
       <div className="w-1/2">
         <h1 className="text-6xl font-bold text-[#0F172A]">
           Build Your Ideal{' '}
@@ -25,7 +25,7 @@ function Hero() {
       <div className="w-1/2">
         <img className="w-full" src={HeroBanner} alt="Hero Image"></img>
       </div>
-    </div>
+    </section>
   );
 }
 
