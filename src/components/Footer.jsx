@@ -12,13 +12,28 @@ function Footer() {
           </p>
           <ul className="flex gap-6">
             <li>
-              <a href="#">GitHub</a>
+              <a
+                className="hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href="#"
+              >
+                GitHub
+              </a>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <a
+                className="hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href="#"
+              >
+                Twitter
+              </a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a
+                className="hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href="#"
+              >
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>
@@ -28,17 +43,26 @@ function Footer() {
               <a href="">PRODUCT</a>
             </li>
             <li className="mb-2">
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Home
               </a>
             </li>
             <li className="mb-2">
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Technologies
               </a>
             </li>
             <li>
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Projects
               </a>
             </li>
@@ -48,17 +72,26 @@ function Footer() {
               <a href="">COMPANY</a>
             </li>
             <li className="mb-2">
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 About
               </a>
             </li>
             <li className="mb-2">
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Contact
               </a>
             </li>
             <li>
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Careers
               </a>
             </li>
@@ -68,23 +101,33 @@ function Footer() {
               <a href="">LEGAL</a>
             </li>
             <li className="mb-2">
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a className="text-[#64748B]" href="">
+              <a
+                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                href=""
+              >
                 Terms of Service
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <div className="py-8 flex justify-between items-center">
+      <div className="py-8 flex justify-between items-center border-t-2 border-[#F1F5F9]">
         <p className="text-[#94A3B8]">© 2026 Dev Stack. All rights reserved.</p>
         <ul className="flex justify-center items-center gap-8">
-          <li className="text-[#94A3B8] cursor-pointer">Privacy</li>
-          <li className="text-[#94A3B8] cursor-pointer">Terms</li>
+          <li className="text-[#94A3B8] cursor-pointer hover:text-[#DB2777] transition-colors duration-300 ease-linear">
+            Privacy
+          </li>
+          <li className="text-[#94A3B8] cursor-pointer hover:text-[#DB2777] transition-colors duration-300 ease-linear">
+            Terms
+          </li>
         </ul>
       </div>
     </footer>
