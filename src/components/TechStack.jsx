@@ -1,4 +1,5 @@
 import React, { use, useState } from 'react';
+import { toast } from 'react-toastify';
 
 function TechStack({ techPromise }) {
   const techStack = use(techPromise);
@@ -10,17 +11,20 @@ function TechStack({ techPromise }) {
     const isAlreadyAdded = selectedStack.some((item) => item.id === tech.id);
     if (!isAlreadyAdded) {
       setSelectedStack([...selectedStack, tech]);
+      toast.success(`${tech.name} is added to stack`);
     }
   };
 
   // Remove tech from tech stack
   const handleRemoveFromStack = (techId) => {
     setSelectedStack(selectedStack.filter((item) => item.id !== techId));
+    toast.error('Removed Successfully');
   };
 
   // Remove all tech stack
   const handleRemoveAll = () => {
     setSelectedStack([]);
+    toast.error('All removed successfully');
   };
 
   return (
@@ -89,16 +93,15 @@ function TechStack({ techPromise }) {
           })}
         </div>
 
-        {/* Right Side: Your Stack Panel (Takes 1 Column) */}
-        <div className="lg:col-span-1 border border-slate-100 bg-white rounded-xl p-5 shadow-xs sticky top-6">
-          <h2 className="text-base font-bold text-slate-800">Your Stack</h2>
-          <p className="text-xs text-slate-400 mb-4">
+        <div className="lg:col-span-1 border border-slate-100 rounded-xl p-5 shadow-xs sticky top-6">
+          <h2 className="text-base font-bold text-[#0F172A]">Your Stack</h2>
+          <p className="text-xs text-[#94A3B8] mb-4">
             {selectedStack.length} {selectedStack.length === 1 ? 'Technology' : 'Technologies'}{' '}
             Selected
           </p>
 
           {/* Selected List */}
-          <div className="space-y-3 min-h-[120px]">
+          <div className="space-y-3 min-h-30">
             {selectedStack.length === 0 ? (
               <p className="text-xs text-slate-400 italic text-center py-6">
                 No technologies added yet.

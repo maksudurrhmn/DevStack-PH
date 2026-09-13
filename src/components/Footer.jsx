@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="mb-2">
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Home
@@ -52,7 +52,7 @@ function Footer() {
             </li>
             <li className="mb-2">
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Technologies
@@ -60,7 +60,7 @@ function Footer() {
             </li>
             <li>
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Projects
@@ -73,7 +73,7 @@ function Footer() {
             </li>
             <li className="mb-2">
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 About
@@ -81,7 +81,7 @@ function Footer() {
             </li>
             <li className="mb-2">
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Contact
@@ -89,7 +89,7 @@ function Footer() {
             </li>
             <li>
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Careers
@@ -102,7 +102,7 @@ function Footer() {
             </li>
             <li className="mb-2">
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Privacy Policy
@@ -110,7 +110,7 @@ function Footer() {
             </li>
             <li>
               <a
-                className="text-[#64748B] hover:text-[#DB2777] transition-colors duration-300 ease-linear"
+                className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                 href=""
               >
                 Terms of Service
@@ -122,10 +122,10 @@ function Footer() {
       <div className="py-8 flex justify-between items-center border-t-2 border-[#F1F5F9]">
         <p className="text-[#94A3B8]">© 2026 Dev Stack. All rights reserved.</p>
         <ul className="flex justify-center items-center gap-8">
-          <li className="text-[#94A3B8] cursor-pointer hover:text-[#DB2777] transition-colors duration-300 ease-linear">
+          <li className="text-[#94A3B8] cursor-pointer text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear">
             Privacy
           </li>
-          <li className="text-[#94A3B8] cursor-pointer hover:text-[#DB2777] transition-colors duration-300 ease-linear">
+          <li className="text-[#94A3B8] cursor-pointer text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear">
             Terms
           </li>
         </ul>

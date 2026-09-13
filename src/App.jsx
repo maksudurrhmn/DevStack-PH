@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
