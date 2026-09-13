@@ -18,7 +18,7 @@ function TechStack({ techPromise }) {
   // Remove tech from tech stack
   const handleRemoveFromStack = (techId) => {
     setSelectedStack(selectedStack.filter((item) => item.id !== techId));
-    toast.error('Removed Successfully');
+    toast.warning('Removed Successfully');
   };
 
   // Remove all tech stack
@@ -28,15 +28,15 @@ function TechStack({ techPromise }) {
   };
 
   return (
-    <section className="container mx-auto">
+    <section className="lg:container lg:mx-auto px-4 lg:px-0">
       <div className="mb-8">
-        <h1 className="text-3xl font-extrabold text-[#475569]">
+        <h1 className="text-2xl md:text-3xl text-center lg:text-left font-extrabold text-[#475569]">
           Explore the{' '}
           <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">
             Technologies
           </span>
         </h1>
-        <p className="text-[#475569] mt-2">
+        <p className="text-[#475569] text-sm md:text-[16px] text-center lg:text-left mt-2">
           Pick one technology per category to build your ideal stack.
         </p>
       </div>
@@ -133,7 +133,7 @@ function TechStack({ techPromise }) {
           {selectedStack.length > 0 && (
             <button
               onClick={handleRemoveAll}
-              className="w-full mt-6 py-2 border border-rose-200 text-rose-500 hover:bg-rose-50 text-xs font-semibold rounded-lg transition-colors"
+              className="w-full mt-6 py-2 border border-[#ED8C85] text-[#D82C20] hover:bg-rose-50 text-xs font-semibold rounded-lg transition-colors"
             >
               Remove All
             </button>
