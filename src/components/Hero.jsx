@@ -3,9 +3,9 @@ import HeroBanner from '../assets/banner-stack.png';
 
 function Hero() {
   return (
-    <section className="container mx-auto flex gap-48 justify-between items-center py-12">
+    <section className="container mx-auto flex gap-48 justify-between items-center">
       <div className="w-1/2">
-        <h1 className="text-6xl font-bold text-[#0F172A]">
+        <h1 className="text-6xl font-extrabold text-[#0F172A]">
           Build Your Ideal{' '}
           <span className="bg-linear-to-r from-[#FF5722] via-[#D81B7E] to-[#7C3AED] bg-clip-text text-transparent">
             Development Stack
