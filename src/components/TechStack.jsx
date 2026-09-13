@@ -93,17 +93,16 @@ function TechStack({ techPromise }) {
           })}
         </div>
 
-        <div className="lg:col-span-1 border border-slate-100 rounded-xl p-5 shadow-xs sticky top-6">
+        <div className="lg:col-span-1 border border-slate-100 rounded-xl p-5 shadow-xs sticky top-22">
           <h2 className="text-base font-bold text-[#0F172A]">Your Stack</h2>
           <p className="text-xs text-[#94A3B8] mb-4">
             {selectedStack.length} {selectedStack.length === 1 ? 'Technology' : 'Technologies'}{' '}
             Selected
           </p>
 
-          {/* Selected List */}
           <div className="space-y-3 min-h-30">
             {selectedStack.length === 0 ? (
-              <p className="text-xs text-slate-400 italic text-center py-6">
+              <p className="text-sm text-[#94A3B8] italic text-center py-6 border-2 border-slate-100 rounded">
                 No technologies added yet.
               </p>
             ) : (
@@ -131,7 +130,6 @@ function TechStack({ techPromise }) {
             )}
           </div>
 
-          {/* Remove All Button */}
           {selectedStack.length > 0 && (
             <button
               onClick={handleRemoveAll}

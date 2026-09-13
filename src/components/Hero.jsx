@@ -3,7 +3,7 @@ import HeroBanner from '../assets/banner-stack.png';
 
 function Hero() {
   return (
-    <section className="container mx-auto flex gap-48 justify-between items-center">
+    <section className="container mx-auto flex gap-48 justify-between items-center py-12">
       <div className="w-1/2">
         <h1 className="text-6xl font-extrabold text-[#0F172A]">
           Build Your Ideal{' '}
@@ -15,10 +15,10 @@ function Hero() {
           Explore frontend, backend, database, and tooling options,
           <br /> compare them side by side, and put together the stack that fits your next project.
         </p>
-        <button className="relative w-52 py-3 rounded cursor-pointer text-white mr-4 overflow-hidden bg-linear-to-r from-[#F97316] to-[#EC4899] before:absolute before:inset-0 before:bg-linear-to-r before:from-[#d88549] before:to-[#bb4e85] before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300">
+        <button className="relative w-52 py-3 rounded-xl cursor-pointer text-white mr-4 overflow-hidden bg-linear-to-r from-[#F97316] to-[#EC4899] before:absolute before:inset-0 before:bg-linear-to-r before:from-[#d88549] before:to-[#bb4e85] before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300">
           <span className="relative z-10">Explore Technologies</span>
         </button>
-        <button className="border border-[#E5E7EB] hover:bg-[#f3eaea] w-52 py-3 cursor-pointer rounded transition-all duration-300 ease-linear">
+        <button className="border border-[#E5E7EB] hover:bg-slate-200 w-52 py-3 cursor-pointer rounded-xl transition-all duration-300 ease-linear">
           Learn More
         </button>
       </div>

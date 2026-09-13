@@ -4,7 +4,7 @@ import FooterLogo from '../assets/logo-text.png';
 function Footer() {
   return (
     <footer className="container mx-auto">
-      <div className="flex justify-center items-center  py-12">
+      <div className="flex justify-center items-center  pb-12 pt-24">
         <div className="w-1/2">
           <img src={FooterLogo} alt=""></img>
           <p className="py-8 w-[65%] text-[#64748B]">
