@@ -38,12 +38,12 @@ function Footer() {
           </ul>
         </div>
         <div className="hidden xl:block w-1/2">
-          <div className="flex justify-center items-center ">
-            <ul className="w-1/3">
-              <li className="font-semibold mb-4">
+          <div className="flex justify-center items-start ">
+            <ul className="w-1/3 flex flex-col justify-center items-center gap-2">
+              <li className="font-semibold">
                 <a href="">PRODUCT</a>
               </li>
-              <li className="mb-2">
+              <li className="">
                 <a
                   className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                   href=""
@@ -51,7 +51,7 @@ function Footer() {
                   Home
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="">
                 <a
                   className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                   href=""
@@ -68,11 +68,11 @@ function Footer() {
                 </a>
               </li>
             </ul>
-            <ul className="w-1/3">
-              <li className="font-semibold mb-4">
+            <ul className="w-1/3 flex flex-col justify-center items-center gap-2">
+              <li className="font-semibold">
                 <a href="">COMPANY</a>
               </li>
-              <li className="mb-2">
+              <li className="">
                 <a
                   className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                   href=""
@@ -80,7 +80,7 @@ function Footer() {
                   About
                 </a>
               </li>
-              <li className="mb-2">
+              <li className="">
                 <a
                   className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                   href=""
@@ -97,11 +97,11 @@ function Footer() {
                 </a>
               </li>
             </ul>
-            <ul className="w-1/3">
-              <li className="font-semibold mb-4">
+            <ul className="w-1/3 flex flex-col justify-center items-center gap-2">
+              <li className="font-semibold ">
                 <a href="">LEGAL</a>
               </li>
-              <li className="mb-2">
+              <li className="">
                 <a
                   className="text-[#64748B] text-sm hover:text-[#DB2777] transition-colors duration-300 ease-linear"
                   href=""
